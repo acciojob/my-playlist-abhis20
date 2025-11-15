@@ -55,6 +55,7 @@ h2{
 .player_one{
 	width: 100%;
     height: auto;
+	background-color: white;
 }
 .player_one video {
     width: 100%;   /* NEW */
@@ -63,6 +64,7 @@ h2{
 }
 .player_two{
 	width:100%;
+	background-color: white;
 }
 p{
 	padding-left:15px;
