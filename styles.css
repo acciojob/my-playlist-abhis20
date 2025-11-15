@@ -1,1 +1,77 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.container{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+}
+body{
+	background-color: rgb(204, 204, 204)
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center
+}
+.song{
+	list-style-type: none;
+    padding-left:20px;
+}
+.song a{
+	text-decoration-line:none;
+	color:black;
+}
+.songs{
+	display:flex;
+	flex-direction:column;
+	border:2px solid black;
+	border-radius:6px;
+	justify-content:space-evenly;
+	align-items:flex-start;
+	height:150px;
+	width:90%;
+	background-color:white;
+}
+.current{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	background-color: rgb(255, 255, 255); 
+	border:2px solid black;
+	border-radius:5px;
+	margin-top:10px;
+	margin-bottom:5px;
+	height:60%;
+	width:80%;
+	gap: 15px; 
+}
+.player_one{
+	width: 100%;
+    height: auto;
+}
+.player_one video {
+    width: 100%;   /* NEW */
+    height: auto;
+	padding:10px
+}
+.player_two{
+	width:100%;
+}
+p{
+	padding-left:15px;
+	font-weight:bold;
+}
+.player_two audio{
+	width:100%;
+	padding:10px;
+}
+
+
+
